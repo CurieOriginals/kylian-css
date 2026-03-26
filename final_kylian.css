@@ -624,7 +624,7 @@ div.mt-2 { margin-top: 24px !important }
 .co-sc-entries::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 2px }
 .co-sc-entries::-webkit-scrollbar-thumb:hover { background: rgba(255, 58, 74, 0.3) }
 .co-sc-entry {
-    flex: 0 0 125px; display: flex; align-items: center; gap: 16px;
+    flex: 1; display: flex; align-items: center; gap: 16px;
     padding: 0 24px; border-bottom: 1px solid rgba(255, 255, 255, 0.04);
     cursor: default; transition: background 0.25s ease, border-color 0.25s ease, padding 0.25s ease
 }
