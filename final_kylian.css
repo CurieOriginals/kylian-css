@@ -124,7 +124,7 @@ div.mt-4 { background: transparent !important; background-color: transparent !im
         z-index: 0 !important; pointer-events: none !important
     }
     .ant-row.ant-row-center>.ant-col-lg-6:first-child::after {
-        content: '04 GREETINGS  ·  08 IMAGES' !important;
+        content: '06 GREETINGS  ·  08 IMAGES' !important;
         grid-column: 1 !important; grid-row: 2 !important;
         align-self: end !important; justify-self: end !important; z-index: 1 !important;
         font-family: var(--co-font-body) !important; font-size: 0.78em !important;
@@ -172,7 +172,7 @@ div.mt-4 { background: transparent !important; background-color: transparent !im
         z-index: 0 !important; pointer-events: none !important
     }
     .ant-col.text-left.ant-col-xs-24.ant-col-lg-6::after {
-        content: '04 GREETINGS  ·  08 IMAGES' !important;
+        content: '06 GREETINGS  ·  08 IMAGES' !important;
         grid-column: 1 !important; grid-row: 2 !important;
         align-self: end !important; justify-self: end !important; z-index: 1 !important;
         font-family: var(--co-font-body) !important; font-size: 0.65em !important;
@@ -624,7 +624,7 @@ div.mt-2 { margin-top: 24px !important }
 .co-sc-entries::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); border-radius: 2px }
 .co-sc-entries::-webkit-scrollbar-thumb:hover { background: rgba(255, 58, 74, 0.3) }
 .co-sc-entry {
-    flex: 1; display: flex; align-items: center; gap: 16px;
+    flex: 0 0 125px; display: flex; align-items: center; gap: 16px;
     padding: 0 24px; border-bottom: 1px solid rgba(255, 255, 255, 0.04);
     cursor: default; transition: background 0.25s ease, border-color 0.25s ease, padding 0.25s ease
 }
